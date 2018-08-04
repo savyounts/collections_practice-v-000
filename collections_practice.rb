@@ -43,4 +43,10 @@ def find_a(array)
   array.select do |string|
    string.start_with?("a")
  end
-end  
+end 
+
+def add_s(array)
+  array.each_with_index.collect do |element, index|
+    element << "s" unless index == 1 
+  end
+end 
