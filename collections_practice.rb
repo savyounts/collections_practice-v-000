@@ -33,7 +33,7 @@ def kesha_maker(array)
   kesha_style = []
   array.each do |word|
     word.to_a
-    word[2] =  $
+    word[2] =  "$"
     kesha_style << word.join
   end
   kesha_style
