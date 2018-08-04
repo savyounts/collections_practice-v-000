@@ -42,5 +42,4 @@ end
 def find_a(array)
   array.find? |string|
    string.start_with? |a|
- end
 end  
