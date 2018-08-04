@@ -34,7 +34,7 @@ describe 'collections practice' do
   describe '#swap_elements_from_to' do 
     it 'allows you to specfy the index of the element you want to move to a new index'
       do
-        expect(swap_elements_from_to(["a", "b", "c"], 0, 2)).to eq(["c", "b", "a"])
+        expect(swap_elements_from_to(["a", "b", "c"],0,2)).to eq(["c", "b", "a"])
       end
     end 
 
